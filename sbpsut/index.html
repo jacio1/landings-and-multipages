@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафедра ИКД</title>
+    <link rel="icon" type="image/png" href="./img/logo-white.png">
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="./img/logo-black.svg" alt="Логотип кафедры">
+                      </a>
+                    <button class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a class="menu__list-link" href="#about">О кафедре</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#teachers">Наши преподаватели</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#disciplines">Читаемые дисциплины</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <button class="theme-toggle" onclick="toggleTheme()">
+                        <span class="sun-icon">☀️</span>
+                        <span class="moon-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <section class="happiness-section">
+                <div class="content1" style="text-align: center; margin: 0 auto;">
+                    <h2 style="text-transform: uppercase;color: white; text-align: center; margin: 0 auto; font-size: 48px; padding-bottom: 40px;">Кафедра дизайна и информатики</h2>
+                    <p style="color: white; margin-bottom: 100px; font-size: 48px; line-height: normal;">Для тех, кому интересен дизайн</p>
+                        <a href="#about" class="menu__list-link btn btn-white btn-animate">Подробнее</a>
+                </div>
+            </section>
+    
+            <section id="about" style="padding-bottom: 150px;">
+                <div class="container" >
+                    
+            
+                    <div class="section" style="text-align: left; gap: 50px;">
+                        <div class="section-content">
+                    
+                            <h2>О нашей кафедре</h2>
+                            <p style="text-align: left; font-size: 24px;">Кафедра информатики и компьютерного дизайна университета СПБГУТ – это ваш ключ к успешной карьере в сфере информационных технологий. Опытные преподаватели, современная учебная база, тесная связь с практикой и активная научная деятельность – всё это создает идеальные условия для получения качественного образования.</p>
+                        </div>
+                        <div class="section-image">
+                            <img src="img/about-1.jpg" alt="О кафедре" style="position: relative;">
+                            
+                        </div>
+                    </div>
+            
+                    <div class="section" style="text-align: left; gap: 50px;">
+                        <div class="section-content">
+                            <h2>Опытные преподаватели</h2>
+                            <p style="text-align: left; font-size: 24px;">Секрет успеха ИКД – это преподаватели-энтузиасты, которые не просто обучают, а зажигаяют в своих студентах страсть к знаниям и стремление к саморазвитию.
+
+                                Доктора и кандидаты наук, опытные практики, они щедро делятся своими знаниями и опытом, создавая на занятиях атмосферу творчества и взаимопомощи.</p>
+                        </div>
+                        <div class="section-image">
+                            <img src="./img/about-222.png" alt="">
+                        </div>
+                    </div>
+            
+                    <div class="section" style="text-align: left; gap: 50px;">
+                        <div class="section-content">
+                            <h2>Интересные учебные дисциплины</h2>
+                            <p style="text-align: left; font-size: 24px;">
+                                На кафедре ИКД университета СПбГУТ студенты изучают множество увлекательных и современных учебных дисциплин. Среди них особое внимание привлекают множество курсов по дизайну, где изучаются принципы работы и применения дизайна в различных сферах, а также множество интеллектуальных дисциплин, где студенты погружаются в мир алгоритмов, нейронных сетей и их практического применения для решения сложных задач.</p>
+                        </div>
+                        <div class="section-image">
+                            <img src="./img/about-33.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    
+            <section id="teachers" class="section" style="padding-bottom: 150px;">
+                <div class="container">
+                    <h1 style="text-align: center; text-transform: uppercase; padding-bottom: 30px;" class="teachers-title">Наши преподаватели</h1>
+                    <h2 class="teacher-title2">Заведующий кафедры</h2>
+                    <div class="card-container">
+                        <img class="profile-image" src="./img/teachers/Voloshinov.jpg"" alt="Profile 1">
+                        <div class="name">Волошинов Денис Вячеславович </div>
+                        <div class="description">доктор технических наук, профессор, заведующий кафедрой ИКД</div>
+                        <dialog>
+                            <div class="content">
+                                <img src="./img/teachers/Voloshinov.jpg" alt="Profile 1">
+                                <div>
+                                    <h3>Волошинов Денис Вячеславович </h3>
+                                    <p>Адрес: пр. Большевиков, д. 22/1, каб. 234/2
+                                    </p>
+                                    <p>Телефон: +7 (812) 326-31-63, доб. 2131</p>
+                                    <p>Email: voloshinov.dv@sut.ru</p>
+                                </div>
+                            </div>
+                            <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                  <span class="icon arrow"></span>
+                                </span>
+                                <span class="open-button button-text">Подробнее</span>
+                              </button>
+                    </div>
+                    <h2 class="teacher-title2">Преподаватели</h2>
+                    <div class="educator">
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Gromov.jpg"" alt="Profile 1">
+                            <div class="name">Громов Владислав Витальевич </div>
+                            <div class="description">кандидат технических наук, доцент кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Gromov.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Громов Владислав Витальевич
+                                        </h3>
+                                        
+                                        <p>Email: gromov2.vv@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>
+                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Gunina.png"" alt="Profile 1">
+                            <div class="name">Гунина Елена Викторовна
+                            </div>
+                            <div class="description">кандидат педагогических наук, доцент, доцент кафедры ИКД, Заместитель декана по воспитательной работе
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Gunina.png" alt="Profile 1">
+                                    <div>
+                                        <h3>Гунина Елена Викторовна
+                                        </h3>
+                                        <p>Адрес: пр. Большевиков, д. 22, каб. 402/1 <br>
+                                            пр. Большевиков, д. 22, каб. 232/2</p>
+                                        <p>Телефон: +7 (812) 323-51-76, доб. 1298</p>
+                                        <p>Email: gunina.ev@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Davidov.jpg"" alt="Profile 1">
+                            <div class="name">Давыдов Роман Вадимович
+                            </div>
+                            <div class="description">дкандидат физико-математических наук, доцент каф.ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Davidov.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Давыдов Роман Вадимович
+                                        </h3>
+                                        <p>Email: davydov.rv@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Kokorin.jpg"" alt="Profile 1">
+                            <div class="name">Кокорин Михаил Станиславович
+                            </div>
+                            <div class="description">кандидат технических наук, доцент, доцент кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Kokorin.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Кокорин Михаил Станиславович
+                                        </h3>
+                                        <p>Адрес: пр. Большевиков, д. 22, каб. 232/2</p>
+                                        <p>Email: kokorin@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Musaeva.jpg"" alt="Profile 1">
+                            <div class="name">Мусаева Татьяна Вагифовна
+                            </div>
+                            <div class="description">кандидат технических наук, доцент, доцент кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Musaeva.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Мусаева Татьяна Вагифовна
+                                        </h3>
+                                        <p>Адрес: пр. Большевиков, д. 22, каб. 232/2
+                                        </p>
+                                        <p>Email: musaevatv@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Boyashova.jpg"" alt="Profile 1">
+                            <div class="name">Бояшова Елена Петровна
+                            </div>
+                            <div class="description">старший преподаватель кафедры ИКД, Заместитель декана по учебной работе
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Boyashova.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Бояшова Елена Петровна
+                                        </h3>
+                                        <p>Адрес: пр. Большевиков, д. 22, каб. 232/2
+                                        </p>
+                                        <p>Email: boyashova.ep@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Feodorova.jpeg"" alt="Profile 1">
+                            <div class="name">Фёдорова Алина Владимировна
+                            </div>
+                            <div class="description">к.э.н, доцент, Начальник отдела аспирантуры и докторантуры, к.э.н., доцент каф.ИКД</div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Feodorova.jpeg" alt="Profile 1">
+                                    <div>
+                                        <h3>Фёдорова Алина Владимировна
+                                        </h3>
+                                        <p>Адрес: пр. Большевиков, д. 22, к.1, 372/2
+                                        </p>
+                                        <p>Email: asp@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Shiyan.jpg"" alt="Profile 1">
+                            <div class="name">Шиян Андрей Анатольевич
+                            </div>
+                            <div class="description">кандидат педагогических наук, доцент, доцент кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Shiyan.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Шиян Андрей Анатольевич
+                                        </h3>
+                                        <p>Адрес: пр. Большевиков, д. 22, каб. 232/2
+                                        </p>
+                                        <p>Email: shiyan.aa@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Vasiliev.jpg"" alt="Profile 1">
+                            <div class="name">Васильев Иван Андреевич
+                            </div>
+                            <div class="description">старший преподаватель кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Vasiliev.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Васильев Иван Андреевич
+                                        </h3>
+     
+                                        <p>Email: vasilev1.ia@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Lappo.jpg"" alt="Profile 1">
+                            <div class="name">Лаппо Елизавета Алексеевна
+                            </div>
+                            <div class="description">старший преподаватель кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Lappo.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Лаппо Елизавета Алексеевна
+                                        </h3>
+                                        <p>Email: lappo.ea@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Solovieva.jpg"" alt="Profile 1">
+                            <div class="name">Соловьева Александра Владимировна
+                            </div>
+                            <div class="description">старший преподаватель кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Solovieva.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Соловьева Александра Владимировна
+                                        </h3>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Trifanov.jpg"" alt="Profile 1">
+                            <div class="name">Трифанов Максим Алексеевич
+                            </div>
+                            <div class="description">старший преподаватель кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Trifanov.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Трифанов Максим Алексеевич
+                                        </h3>
+                                        <p>Адрес: пр. Большевиков, д. 22, каб. 232/2</p>
+                                        <p>Email: trifanov.ma@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Haibrahmanova.jpg"" alt="Profile 1">
+                            <div class="name">Хайбрахманова Екатерина Сергеевна
+                            </div>
+                            <div class="description">старший преподаватель кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Haibrahmanova.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Хайбрахманова Екатерина Сергеевна
+                                        </h3>
+                                        <p>Email: esh@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/ShiyanP.jpg"" alt="Profile 1">
+                            <div class="name">Шиян Павел Анатольевич
+                            </div>
+                            <div class="description">старший преподаватель кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/ShiyanP.jpg" alt="Profile 1">
+                                    <div>
+                                        <h3>Шиян Павел Анатольевич
+                                        </h3>
+                                        <p>Email: shiyan.pa@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                        <div class="card-container">
+                            <img class="profile-image" src="./img/teachers/Al-Nami.png"" alt="Profile 1" style="filter: brightness(0);">
+                            <div class="name">Аль-Нами Башер Али Абдуллах
+                            </div>
+                            <div class="description">кандидат технических наук, ассистент кафедры ИКД
+                            </div>
+                            <dialog>
+                                <div class="content">
+                                    <img src="./img/teachers/Al-Nami.png" alt="Profile 1" style="filter: brightness(0);">
+                                    <div>
+                                        <h3>Аль-Нами Башер Али Абдуллах
+                                        </h3>
+                                        <p>Email: al-nami.baa@sut.ru</p>
+                                    </div>
+                                </div>
+                                <button class="close-button" aria-label="Закрыть">×</button>                        </dialog>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="open-button button-text">Подробнее</span>
+                                  </button>                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="disciplines" id="disciplines" style="padding-bottom: 250px;">
+                <h1 class="teachers-title" style="text-align: center; text-transform: uppercase;">Читаемые дисциплины</h1>
+                <div class="container">
+                    <table class="table-fill">
+                        <thead>
+                          <tr>
+                            <th class="text-left">Наименование дисциплины</th>
+                            <th class="text-left">Семестр</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-hover">
+                          <tr>
+                            <td class="text-left">Информатика</td>
+                            <td class="text-left">1</td>
+                          </tr>
+                          <tr>
+                            <td class="text-left">Начертательная геометрия</td>
+                            <td class="text-left">1</td>
+                          </tr>
+                          <tr>
+                            <td class="text-left">Введение в профессию</td>
+                            <td class="text-left">1</td>
+                          </tr>
+                          <tr>
+                            <td class="text-left">Инженерная и компьютерная графика</td>
+                            <td class="text-left">2</td>
+                          </tr>
+                          <tr>
+                            <td class="text-left">Информационные технологии</td>
+                            <td class="text-left">2</td>
+                          </tr>
+                          <tr>
+                            <td class="text-left">Методы технического рисунка
+                            </td>
+                            <td class="text-left">2</td>
+                          </tr>
+                          <tr class="hidden-row">
+                            <td class="text-left">Эскизирование и макетирование
+                            </td>
+                            <td class="text-left">3</td>
+                          </tr>
+                          <tr class="hidden-row">
+                              <td class="text-left">Эргономика и дизайн графических интерфейсов
+                            </td>
+                              <td class="text-left">3</td>
+                          </tr>
+                          <tr class="hidden-row">
+                            <td class="text-left">Эргономика и дизайн графических интерфейсов
+                          </td>
+                            <td class="text-left">3</td>
+                        </tr>
+                        <tr class="hidden-row">
+                            <td class="text-left">Моделирование архитектуры игровых программных средств и симуляторов
+                          </td>
+                            <td class="text-left">3</td>
+                        </tr>
+                          <tr class="hidden-row">
+                              <td class="text-left">Цветоведение</td>
+                              <td class="text-left">4</td>
+                          </tr>
+                          <tr class="hidden-row">
+                              <td class="text-left">Методы графического дизайна
+                            </td>
+                              <td class="text-left">4</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                      <button class="expand-btn">Расширить</button>
+                      <button class="collapse-btn">Уменьшить</button>
+                </div>
+            </section>
+                    
+                
+            <section class="section-map">
+                <div class="container" id="contacts">
+                
+                    <div class="section-map__title" style="text-align: center;">
+                        <h1 style="text-transform: uppercase ; margin-bottom: 20px;" class="teachers-title">Контакты</h1>
+                      </div>
+            
+                  <div class="section-map__map">
+                    <div class="map" id="map"></div>
+                  </div>
+                  <div class="contacts__left" style="text-align: center;">
+                    <a href="tel:78123263163" style="text-decoration: none; color: #fff;" >+ 7 (812) 326-31-63</a>
+                    <p class="contacts-address" style="color: #fff; text-align: center; padding-bottom: 10px; padding-top: 10px;" >г. Санкт-Петербург,<br> проспект Большевиков 22к1</p>
+                    <a href="mailto:ikd@sut.ru" style="text-decoration: none; color: #fff;"  >ikd@sut.ru</a>
+
+                </div>
+                </div>
+              </section>
+        </main>
+    
+        <footer style="margin-top: 150px;">
+            <div class="container">
+                <p>© Team Z 2024</p>
+            </div>
+        </footer>
+    
+    </div>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=4f537583-9ef9-4998-a98b-9a6ee160a9d3&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+</body>
+</html>
