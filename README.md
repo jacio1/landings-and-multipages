@@ -10,6 +10,7 @@
 | **FreeFit Landing**           | Простой адаптивный лендинг фитнес сайта                                                    |
 | **Burger Multipage**           | Простой адаптивный многостраничный сайт с двумя страницами - **Главная** и **Контакты**                                                    |
 | **Future Tech**           | Большой многостраничный сайт. Для стилей использовался SCSS                                                   |
+| **spbsut**           | Сайт кафедры ИКД вуза СПБГУТ. Сверстан по заданию по одной из дисциплин                                             |
 
 ---
 
@@ -18,3 +19,4 @@
 - Демо проекта **FreeFit** доступно по ссылке: [**Клик**](https://jacio1.github.io/landings-and-multipages/freefit/)
 - Демо проекта **Burger Multipage** доступно по ссылке: [**Клик**](https://jacio1.github.io/landings-and-multipages/freefit/)
 - Демо проекта **Future Tech** доступно по ссылке: [**Клик**](https://jacio1.github.io/landings-and-multipages/future-tech)
+- Демо проекта **Future Tech** доступно по ссылке: [**Клик**](https://jacio1.github.io/landings-and-multipages/spbsut)
