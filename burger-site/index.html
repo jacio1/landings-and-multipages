@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header" id="headerTop">
+      <div class="container">
+        <div class="header__inner">
+          <button class="burger-menu" onclick="openModal()"></button>
+          <div class="logo"></div>
+          <nav class="nav">
+            <a href="./index.html" class="nav-link">Главная</a>
+            <a href="#" class="nav-link">Меню</a>
+            <a href="#" class="nav-link">О нас</a>
+            <a href="./contact.html" class="nav-link">Контакты</a>
+          </nav>
+          <a href="#" class="cart">$125 <span class="cart-count">5</span></a>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="#" class="breadcrumbs-link">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">Меню</li>
+        </ul>
+        <h1 class="hero-title">Наше меню</h1>
+        <p class="hero-description">
+          Выбирай из предложенного ассортимента и мы доставим блюдо
+          в&nbsp;течении часа
+        </p>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="container">
+        <div class="banner-wrapper">
+          <h2 class="banner-title"><span>Скидка</span>-30%</h2>
+          <p class="banner-description">
+            Только при покупке 3-х и более позиций,<br />
+            мы дарим скидку. Акции не&nbsp;суммируются.
+          </p>
+          <a href="#menuBurger" class="banner-btn">Купить сейчас</a>
+        </div>
+      </div>
+    </section>
+    <main class="main">
+      <section id="menuBurger">
+        <div class="container">
+          <div class="menu">
+            <div class="menu-header">
+              <h2 class="menu-title">Бургеры</h2>
+              <select name="" id="" class="menu-select">
+                <option value="Сортировать" disabled selected>
+                  Сортировать
+                </option>
+                <option value="По умолчанию">По умолчанию</option>
+                <option value="По возрастанию цены">По возрастанию цены</option>
+                <option value="По убыванию цены">По убыванию цены</option>
+              </select>
+            </div>
+            <div class="menu-box">
+              <div class="menu-item">
+                <div class="menu-thumb">
+                  <img src="./images/menu/01.jpg" alt="Острый бургер" />
+                </div>
+                <h3 class="menu-name">Острый бургер</h3>
+                <p class="menu-price">$26</p>
+                <button type="button" class="menu-btn">Купить</button>
+              </div>
+              <div class="menu-item">
+                <div class="menu-thumb">
+                  <img src="./images/menu/02.png" alt="Острый бургер" />
+                </div>
+                <h3 class="menu-name">Гриль Бургер</h3>
+                <p class="menu-price">$16</p>
+                <button type="button" class="menu-btn">Купить</button>
+              </div>
+              <div class="menu-item">
+                <div class="menu-thumb">
+                  <img src="./images/menu/03.png" alt="Острый бургер" />
+                </div>
+                <h3 class="menu-name">Бурег Гигант</h3>
+                <p class="menu-price">$37</p>
+                <button type="button" class="menu-btn">Купить</button>
+              </div>
+              <div class="menu-item">
+                <div class="menu-thumb">
+                  <img src="./images/menu/04.png" alt="Острый бургер" />
+                </div>
+                <h3 class="menu-name">Бургер с курицей</h3>
+                <p class="menu-price">$18</p>
+                <button type="button" class="menu-btn">Купить</button>
+              </div>
+              <div class="menu-item">
+                <div class="menu-thumb">
+                  <img src="./images/menu/05.png" alt="Острый бургер" />
+                </div>
+                <h3 class="menu-name">Бургер с курицей</h3>
+                <p class="menu-price">$9</p>
+                <button type="button" class="menu-btn">Купить</button>
+              </div>
+              <div class="menu-item">
+                <div class="menu-thumb">
+                  <img src="./images/menu/06.png" alt="Острый бургер" />
+                </div>
+                <h3 class="menu-name">Тройной бургер</h3>
+                <p class="menu-price">$7</p>
+                <button type="button" class="menu-btn">Купить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="menu">
+            <div class="menu-header">
+              <h2 class="menu-title">ДОПОЛНИТЕЛЬНО</h2>
+            </div>
+            <div class="menu-box _additionally">
+              <div class="menu-item _additionally">
+                <div class="menu-thumb">
+                  <img
+                    src="./images/menu/optionally/01.png"
+                    alt="Острый бургер"
+                  />
+                </div>
+                <div class="menu-info">
+                  <h3 class="menu-name">Сэндвич</h3>
+                  <p class="menu-price">$3</p>
+                  <button type="button" class="menu-btn">Купить</button>
+                </div>
+              </div>
+              <div class="menu-item _additionally">
+                <div class="menu-thumb">
+                  <img
+                    src="./images/menu/optionally/02.png"
+                    alt="Острый бургер"
+                  />
+                </div>
+                <div class="menu-info">
+                  <h3 class="menu-name">Картошка Фри</h3>
+                  <p class="menu-price">$5</p>
+                  <button type="button" class="menu-btn">Купить</button>
+                </div>
+              </div>
+              <div class="menu-item _additionally">
+                <div class="menu-thumb">
+                  <img
+                    src="./images/menu/optionally/03.png"
+                    alt="Острый бургер"
+                  />
+                </div>
+                <div class="menu-info">
+                  <h3 class="menu-name">Хот-Дог</h3>
+                  <p class="menu-price">$7</p>
+                  <button type="button" class="menu-btn">Купить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <a href="#!" class="footer-logo"></a>
+          <div class="footer-item">
+            <h3 class="footer-title">Основные ссылки</h3>
+            <nav class="footer-nav">
+              <a href="" class="footer-link">Меню</a>
+              <a href="" class="footer-link">Заказ и Доставка</a>
+              <a href="" class="footer-link">Методы оплаты</a>
+              <a href="#!" class="footer-link">Контакты</a>
+              <a href="tel:+79007871313" class="footer-tel _mobile"
+                >+ 7 900 787 13-13</a
+              >
+              <a href="tel:+79007871313" class="footer-tel _mobile"
+                >+ 7 900 700 14-14</a
+              >
+            </nav>
+          </div>
+          <div class="footer-item">
+            <h3 class="footer-title">Основная информация</h3>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <span>Время</span>
+                ПН - ВС<br />
+                11:00 - 22:00 без перерывов
+              </li>
+              <li class="footer-list-item">
+                <span>Адрес</span>
+                ПН - ВС<br />
+                Москва, ул. Тверская, 5
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <a href="tel:+79007871313" class="footer-tel">+ 7 900 787 13-13</a>
+            <a href="tel:+79007871313" class="footer-tel">+ 7 900 700 14-14</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>
+    <div class="modal" id="modal">
+      <nav class="nav _modal">
+        <a href="./index.html" class="nav-link">Главная</a>
+        <a href="#" class="nav-link">Меню</a>
+        <a href="#" class="nav-link">О нас</a>
+        <a href="./contact.html" class="nav-link">Контакты</a>
+      </nav>
+      <button class="modal-close" onclick="closeModal()"></button>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
